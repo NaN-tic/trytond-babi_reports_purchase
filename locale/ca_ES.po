@@ -1,0 +1,542 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_party_product_year_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_party_product_year_month__party"
+msgid "Party"
+msgstr "Tercer"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_party_product_year_month__product"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_party_product_year_month__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.dimension,name:purchase_line_product_year_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:purchase_line_product_year_month__product"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "model:babi.dimension,name:purchase_line_product_year_month__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_country_state_city__city"
+msgid "City"
+msgstr "Ciutat"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_country_state_city__country"
+msgid "Country"
+msgstr "País"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_country_state_city__product"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_country_state_city__state"
+msgid "State/Region"
+msgstr "Subdivisió"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_country_state_city__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.dimension,name:purchase_line_year_product_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:purchase_line_year_product_month__product"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "model:babi.dimension,name:purchase_line_year_product_month__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_party_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_party_month__party"
+msgid "Party"
+msgstr "Tercer"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_party_month__product"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_party_month__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_productcategory_product__category"
+msgid "Product Category"
+msgstr "Categoria de producte"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_productcategory_product__product"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_productcategory_product__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.dimension,name:purchase_month_year__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:purchase_month_year__year"
+msgid "Year-Month"
+msgstr "Any-Mes"
+
+msgctxt "model:babi.dimension,name:purchase_party_year_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:purchase_party_year_month__party"
+msgid "Party"
+msgstr "Tercer"
+
+msgctxt "model:babi.dimension,name:purchase_party_year_month__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.dimension,name:purchase_year_country_state_city__city"
+msgid "City"
+msgstr "Ciutat"
+
+msgctxt "model:babi.dimension,name:purchase_year_country_state_city__country"
+msgid "Country"
+msgstr "País"
+
+msgctxt "model:babi.dimension,name:purchase_year_country_state_city__state"
+msgid "State/Region"
+msgstr "Subdivisió"
+
+msgctxt "model:babi.dimension,name:purchase_year_country_state_city__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.dimension,name:purchase_year_month_date__date"
+msgid "Day"
+msgstr "Dia"
+
+msgctxt "model:babi.dimension,name:purchase_year_month_date__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:purchase_year_party_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:purchase_year_party_month__party"
+msgid "Partner"
+msgstr "Tercer"
+
+msgctxt "model:babi.dimension,name:purchase_year_party_month__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.dimension,name:purchase_year_paymenttype__payment_type"
+msgid "Payment Type"
+msgstr "Tipus de pagament"
+
+msgctxt "model:babi.dimension,name:purchase_year_paymenttype__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.dimension.column,name:purchase_year_month_date__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.expression,name:purchase_line"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:purchase_line_available_quantity"
+msgid "Product Available Quantity"
+msgstr "Quantitat disponible de producte"
+
+msgctxt "model:babi.expression,name:purchase_line_city"
+msgid "City"
+msgstr "Ciutat"
+
+msgctxt "model:babi.expression,name:purchase_line_country"
+msgid "Country"
+msgstr "País"
+
+msgctxt "model:babi.expression,name:purchase_line_currency"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "model:babi.expression,name:purchase_line_date"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "model:babi.expression,name:purchase_line_day"
+msgid "Day"
+msgstr "Dia"
+
+msgctxt "model:babi.expression,name:purchase_line_discount"
+msgid "Discount"
+msgstr "Descompte"
+
+msgctxt "model:babi.expression,name:purchase_line_month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.expression,name:purchase_line_party_name"
+msgid "Party Name"
+msgstr "Nom del tercer"
+
+msgctxt "model:babi.expression,name:purchase_line_payment_term"
+msgid "Payment Term"
+msgstr "Termini de pagament"
+
+msgctxt "model:babi.expression,name:purchase_line_payment_type"
+msgid "Payment Type"
+msgstr "Tipus de pagament"
+
+msgctxt "model:babi.expression,name:purchase_line_price_unit"
+msgid "Unit Price"
+msgstr "Preu unitat"
+
+msgctxt "model:babi.expression,name:purchase_line_product"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "model:babi.expression,name:purchase_line_product_category"
+msgid "Product Category"
+msgstr "Categoria de producte"
+
+msgctxt "model:babi.expression,name:purchase_line_product_code"
+msgid "Product Code"
+msgstr "Codi de producte"
+
+msgctxt "model:babi.expression,name:purchase_line_product_name"
+msgid "Product Name"
+msgstr "Nom de producte"
+
+msgctxt "model:babi.expression,name:purchase_line_product_type"
+msgid "Product Type"
+msgstr "Tipus de producte"
+
+msgctxt "model:babi.expression,name:purchase_line_quantity"
+msgid "Quantity (no UoM conversion)"
+msgstr "Quantitat (sense conversió de UdM)"
+
+msgctxt "model:babi.expression,name:purchase_line_region"
+msgid "State/Region"
+msgstr "Subdivisió"
+
+msgctxt "model:babi.expression,name:purchase_line_state"
+msgid "Purchase State"
+msgstr "Estat de la compra"
+
+msgctxt "model:babi.expression,name:purchase_line_subtotal"
+msgid "Amount"
+msgstr "Import"
+
+msgctxt "model:babi.expression,name:purchase_line_tax_code"
+msgid "Tax Codes"
+msgstr "Codis d'impost"
+
+msgctxt "model:babi.expression,name:purchase_line_tax_name"
+msgid "Tax Names"
+msgstr "Noms d'impost"
+
+msgctxt "model:babi.expression,name:purchase_line_total_amount"
+msgid "Purchase Total Amount"
+msgstr "Import compra"
+
+msgctxt "model:babi.expression,name:purchase_line_untaxed_amount"
+msgid "Purchase Untaxed Amount"
+msgstr "Base imponible compra"
+
+msgctxt "model:babi.expression,name:purchase_line_uos"
+msgid "UoM"
+msgstr "UdM"
+
+msgctxt "model:babi.expression,name:purchase_line_virtual_quantity"
+msgid "Product Forecast Quantity"
+msgstr "Quantitat prevista de producte"
+
+msgctxt "model:babi.expression,name:purchase_line_year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.expression,name:purchase_line_year_month"
+msgid "Year-Month"
+msgstr "Any-Mes"
+
+msgctxt "model:babi.expression,name:purchase_line_zip"
+msgid "Zip"
+msgstr "Codi postal"
+
+msgctxt "model:babi.expression,name:purchase_purchase"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:purchase_purchase_city"
+msgid "City"
+msgstr "Ciutat"
+
+msgctxt "model:babi.expression,name:purchase_purchase_country"
+msgid "Country"
+msgstr "País"
+
+msgctxt "model:babi.expression,name:purchase_purchase_currency_name"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "model:babi.expression,name:purchase_purchase_date"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "model:babi.expression,name:purchase_purchase_day"
+msgid "Day"
+msgstr "Dia"
+
+msgctxt "model:babi.expression,name:purchase_purchase_month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.expression,name:purchase_purchase_party_name"
+msgid "Party Name"
+msgstr "Nom del tercer"
+
+msgctxt "model:babi.expression,name:purchase_purchase_payment_term_name"
+msgid "Payment Term"
+msgstr "Termini de pagament"
+
+msgctxt "model:babi.expression,name:purchase_purchase_payment_type"
+msgid "Payment Type"
+msgstr "Tipus de pagament"
+
+msgctxt "model:babi.expression,name:purchase_purchase_reference"
+msgid "Reference"
+msgstr "Referència"
+
+msgctxt "model:babi.expression,name:purchase_purchase_region"
+msgid "State/Region"
+msgstr "Subdivisió"
+
+msgctxt "model:babi.expression,name:purchase_purchase_self"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "model:babi.expression,name:purchase_purchase_state"
+msgid "State"
+msgstr "Estat"
+
+msgctxt "model:babi.expression,name:purchase_purchase_total_amount"
+msgid "Total Amount"
+msgstr "Total"
+
+msgctxt "model:babi.expression,name:purchase_purchase_untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.expression,name:purchase_purchase_week"
+msgid "Week"
+msgstr "Setmana"
+
+msgctxt "model:babi.expression,name:purchase_purchase_year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.expression,name:purchase_purchase_year_month"
+msgid "Year-Month"
+msgstr "Any-Mes"
+
+msgctxt "model:babi.expression,name:purchase_purchase_zip"
+msgid "Zip"
+msgstr "Codi postal"
+
+msgctxt "model:babi.filter,name:done_purchase_lines"
+msgid "Done Purchases"
+msgstr "Compres finalitzades"
+
+msgctxt "model:babi.filter,name:done_purchases"
+msgid "Done Purchases"
+msgstr "Compres finalitzades"
+
+msgctxt "model:babi.filter,name:processing_done_purchase_lines"
+msgid "Processing/Done Purchases"
+msgstr "Compres en procés/finalitzades"
+
+msgctxt "model:babi.filter,name:processing_done_purchases"
+msgid "Processing/Done Purchases"
+msgstr "Compres en procés/finalitzades"
+
+msgctxt "model:babi.filter,name:processing_purchase_lines"
+msgid "Processing Purchases"
+msgstr "Compres en procés"
+
+msgctxt "model:babi.filter,name:processing_purchases"
+msgid "Processing Purchases"
+msgstr "Compres en procés"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_party_product_year_month__discount"
+msgid "Discount Average"
+msgstr "Mitjana descompte"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_party_product_year_month__quantity"
+msgid "Quantity"
+msgstr "Quantitat"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_party_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt "model:babi.measure,name:purchase_line_product_year_month__quantity"
+msgid "Quantity"
+msgstr "Quantitat"
+
+msgctxt "model:babi.measure,name:purchase_line_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_year_product_country_state_city__quantity"
+msgid "Quantity"
+msgstr "Quantitat"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_year_product_country_state_city__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt "model:babi.measure,name:purchase_line_year_product_month__quantity"
+msgid "Quantity"
+msgstr "Quantitat"
+
+msgctxt "model:babi.measure,name:purchase_line_year_product_month__subtotal"
+msgid "Amount"
+msgstr "Import"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_year_product_party_month__discount"
+msgid "Discount Average"
+msgstr "Mitjana descompte"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_year_product_party_month__quantity"
+msgid "Quantity"
+msgstr "Quantitat"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_year_product_party_month__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_year_productcategory_product__quantity"
+msgid "Quantity"
+msgstr "Quantitat"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_year_productcategory_product__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt "model:babi.measure,name:purchase_month_year__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:purchase_party_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt ""
+"model:babi.measure,name:purchase_year_country_state_city__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:purchase_year_month_date__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:purchase_year_party_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:purchase_year_paymenttype__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.report,name:purchase_line_party_product_year_month"
+msgid "Purchase lines by Party - Product - Year - Month"
+msgstr "Línies de compra per Tercer - Producte - Any - Mes"
+
+msgctxt "model:babi.report,name:purchase_line_product_year_month"
+msgid "Purchase lines by Product - Year - Month"
+msgstr "Línies de compra per Producte - Any - Mes"
+
+msgctxt "model:babi.report,name:purchase_line_year_product_country_state_city"
+msgid "Purchase lines by Year - Product - Country - State - City"
+msgstr "Línies de compra per Any - Producte - País - Subdivisió - Ciutat"
+
+msgctxt "model:babi.report,name:purchase_line_year_product_month"
+msgid "Purchase lines by Year - Product - Month"
+msgstr "Línies de compra per Any - Producte - Mes"
+
+msgctxt "model:babi.report,name:purchase_line_year_product_party_month"
+msgid "Purchase lines by Year - Product - Party - Month"
+msgstr "Línies de compra per Any - Producte - Tercer - Mes"
+
+msgctxt "model:babi.report,name:purchase_line_year_productcategory_product"
+msgid "Purchase lines by Year - Product Category - Product"
+msgstr "Línies de compra per Any - Categoria de producte - Producte"
+
+msgctxt "model:babi.report,name:purchase_month_year"
+msgid "Purchases by Month - Year"
+msgstr "Compres per Mes - Any"
+
+msgctxt "model:babi.report,name:purchase_party_year_month"
+msgid "Purchases by Partner - Year - Month"
+msgstr "Compres per Tercer - Any - Mes"
+
+msgctxt "model:babi.report,name:purchase_year_country_state_city"
+msgid "Purchases by Year - Country - State - City"
+msgstr "Compres per Any - País - Subdivisió - Ciutat"
+
+msgctxt "model:babi.report,name:purchase_year_month_date"
+msgid "Purchases by Year - Month - Day"
+msgstr "Compres per Any - Mes - Dia"
+
+msgctxt "model:babi.report,name:purchase_year_party_month"
+msgid "Purchases by Year - Partner - Month"
+msgstr "Compres per Any - Tercer - Mes"
+
+msgctxt "model:babi.report,name:purchase_year_paymenttype"
+msgid "Purchases by Year - Payment Type"
+msgstr "Compres per Any - Tipus de pagament"

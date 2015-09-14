@@ -155,7 +155,7 @@ msgid "Month"
 msgstr "Mes"
 
 msgctxt "model:babi.dimension,name:purchase_year_party_month__party"
-msgid "Partner"
+msgid "Party"
 msgstr "Tercero"
 
 msgctxt "model:babi.dimension,name:purchase_year_party_month__year"
@@ -522,7 +522,7 @@ msgid "Purchases by Month - Year"
 msgstr "Compras por Mes - Año"
 
 msgctxt "model:babi.report,name:purchase_party_year_month"
-msgid "Purchases by Partner - Year - Month"
+msgid "Purchases by Party - Year - Month"
 msgstr "Compras por Tercero - Año - Mes"
 
 msgctxt "model:babi.report,name:purchase_year_country_state_city"
@@ -534,7 +534,7 @@ msgid "Purchases by Year - Month - Day"
 msgstr "Compras por Año - Mes - Día"
 
 msgctxt "model:babi.report,name:purchase_year_party_month"
-msgid "Purchases by Year - Partner - Month"
+msgid "Purchases by Year - Party - Month"
 msgstr "Compras por Año - Tercero - Mes"
 
 msgctxt "model:babi.report,name:purchase_year_paymenttype"

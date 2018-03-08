@@ -12,13 +12,20 @@ try:
 except ImportError:
     from ConfigParser import ConfigParser
 
-MODULE2PREFIX = {}
+MODULE = 'babi_reports_purchase'
+PREFIX = 'trytonzz'
+MODULE2PREFIX = {
+    'babi': 'nantic',
+    'purchase_discount': 'trytonspain',
+    'purchase_payment_type': 'trytonspain',
+    }
 
 
 def read(fname):
     return io.open(
         os.path.join(os.path.dirname(__file__), fname),
         'r', encoding='utf-8').read()
+
 
 def get_require_version(name):
     if minor_version % 2:
@@ -39,8 +46,6 @@ version = info.get('version', '0.0.1')
 major_version, minor_version, _ = version.split('.', 2)
 major_version = int(major_version)
 minor_version = int(minor_version)
-name = 'trytonzz_babi_reports_purchase'
-download_url = 'https://bitbucket.org/zikzakmedia/trytond-babi_reports_purchase'
 
 requires = []
 for dep in info.get('depends', []):
@@ -50,27 +55,51 @@ for dep in info.get('depends', []):
 requires.append(get_require_version('trytond'))
 
 tests_require = []
-dependency_links = []
+series = '%s.%s' % (major_version, minor_version)
+if minor_version % 2:
+    branch = 'default'
+else:
+    branch = series
+dependency_links = [
+    ('hg+https://bitbucket.org/nantic/'
+        'trytond-babi@%(branch)s'
+        '#egg=nantic-babi-%(series)s' % {
+            'branch': branch,
+            'series': series,
+            }),
+    ('hg+https://bitbucket.org/trytonspain/'
+        'trytond-purchase_discount@%(branch)s'
+        '#egg=trytonspain-purchase_discount-%(series)s' % {
+            'branch': branch,
+            'series': series,
+            }),
+    ('hg+https://bitbucket.org/trytonspain/'
+        'trytond-purchase_payment_type@%(branch)s'
+        '#egg=trytonspain-purchase_payment_type-%(series)s' % {
+            'branch': branch,
+            'series': series,
+            }),
+    ]
 if minor_version % 2:
     # Add development index for testing with proteus
     dependency_links.append('https://trydevpi.tryton.org/')
 
-setup(name=name,
+setup(name='%s_%s' % (PREFIX, MODULE),
     version=version,
     description='Tryton Babi Reports Purchase Module',
     long_description=read('README'),
     author='Zikzakmedia SL',
     author_email='zikzak@zikzakmedia.com',
     url='https://bitbucket.org/zikzakmedia/',
-    download_url=download_url,
+    download_url='https://bitbucket.org/zikzakmedia/trytond-%s' % MODULE,
     keywords='',
-    package_dir={'trytond.modules.babi_reports_purchase': '.'},
+    package_dir={'trytond.modules.%s' % MODULE: '.'},
     packages=[
-        'trytond.modules.babi_reports_purchase',
-        'trytond.modules.babi_reports_purchase.tests',
+        'trytond.modules.%s' % MODULE,
+        'trytond.modules.%s.tests' % MODULE,
         ],
     package_data={
-        'trytond.modules.babi_reports_purchase': (info.get('xml', [])
+        'trytond.modules.%s' % MODULE: (info.get('xml', [])
             + ['tryton.cfg', 'view/*.xml', 'locale/*.po', '*.odt',
                 'icons/*.svg', 'tests/*.rst']),
         },
@@ -97,9 +126,9 @@ setup(name=name,
         'Natural Language :: Spanish',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Office/Business',
@@ -110,8 +139,8 @@ setup(name=name,
     zip_safe=False,
     entry_points="""
     [trytond.modules]
-    babi_reports_purchase = trytond.modules.babi_reports_purchase
-    """,
+    %s = trytond.modules.%s
+    """ % (MODULE, MODULE),
     test_suite='tests',
     test_loader='trytond.test_loader:Loader',
     tests_require=tests_require,

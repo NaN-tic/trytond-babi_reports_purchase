@@ -2,7 +2,7 @@
 <!-- The COPYRIGHT file at the top level of this repository contains the full
      copyright notices and license terms. -->
 <tryton>
-    <data>
+    <data grouped="1">
         <!-- Filters -->
         <!-- Purchases -->
         <record model="babi.filter" id="processing_done_purchases">

@@ -264,7 +264,7 @@
         <record model="babi.expression" id="purchase_line_payment_term">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','purchase.line')]"/>
-            <field name="expression">o.purchase.payment_term.rec_name</field>
+            <field name="expression">o.purchase.payment_term and o.purchase.payment_term.rec_name</field>
             <field name="name">Payment Term</field>
         </record>
         <record model="babi.expression" id="purchase_line_payment_type">
@@ -350,7 +350,7 @@
         <record model="babi.expression" id="purchase_line_product_type">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','purchase.line')]"/>
-            <field name="expression">o.product and o.product_id.type</field>
+            <field name="expression">o.product and o.product.type</field>
             <field name="name">Product Type</field>
         </record>
         <record model="babi.expression" id="purchase_line_available_quantity">

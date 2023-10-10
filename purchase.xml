@@ -160,7 +160,7 @@
         <record model="babi.expression" id="purchase_purchase_payment_term_name">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','purchase.purchase')]"/>
-            <field name="expression">o.payment_term.rec_name</field>
+            <field name="expression">o.payment_term and o.payment_term.rec_name</field>
             <field name="name">Payment Term</field>
         </record>
         <record model="babi.expression" id="purchase_purchase_payment_type">

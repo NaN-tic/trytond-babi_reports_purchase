@@ -332,7 +332,7 @@
         <record model="babi.expression" id="purchase_line_uos">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','purchase.line')]"/>
-            <field name="expression">o.unit.rec_name</field>
+            <field name="expression">o.unit and o.unit.rec_name</field>
             <field name="name">UoM</field>
         </record>
         <record model="babi.expression" id="purchase_line_tax_name">

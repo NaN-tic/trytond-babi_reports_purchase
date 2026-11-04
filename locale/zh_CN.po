@@ -1,0 +1,472 @@
+#
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_party_product_year_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_party_product_year_month__party"
+msgid "Party"
+msgstr "参与者"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_party_product_year_month__product"
+msgid "Product"
+msgstr "产品"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_party_product_year_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:purchase_line_product_year_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:purchase_line_product_year_month__product"
+msgid "Product"
+msgstr "产品"
+
+msgctxt "model:babi.dimension,name:purchase_line_product_year_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_country_state_city__city"
+msgid "City"
+msgstr "城市"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_country_state_city__country"
+msgid "Country"
+msgstr "国家"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_product_country_state_city__state"
+msgid "State/Region"
+msgstr "省/地区"
+
+msgctxt "model:babi.dimension,name:purchase_line_year_product_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:purchase_line_year_product_month__product"
+msgid "Product"
+msgstr "产品"
+
+msgctxt "model:babi.dimension,name:purchase_line_year_product_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt ""
+"model:babi.dimension,name:purchase_line_year_productcategory_product__category"
+msgid "Product Category"
+msgstr "产品类别"
+
+msgctxt "model:babi.dimension,name:purchase_month_year__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:purchase_month_year__year"
+msgid "Year-Month"
+msgstr "年月"
+
+msgctxt "model:babi.dimension,name:purchase_party_year_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:purchase_party_year_month__party"
+msgid "Party"
+msgstr "参与者"
+
+msgctxt "model:babi.dimension,name:purchase_party_year_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:purchase_year_country_state_city__city"
+msgid "City"
+msgstr "城市"
+
+msgctxt "model:babi.dimension,name:purchase_year_country_state_city__country"
+msgid "Country"
+msgstr "国家"
+
+msgctxt "model:babi.dimension,name:purchase_year_country_state_city__state"
+msgid "State/Region"
+msgstr "省/地区"
+
+msgctxt "model:babi.dimension,name:purchase_year_country_state_city__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:purchase_year_month_date__date"
+msgid "Day"
+msgstr "天"
+
+msgctxt "model:babi.dimension,name:purchase_year_month_date__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:purchase_year_party_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:purchase_year_party_month__party"
+msgid "Party"
+msgstr "参与者"
+
+msgctxt "model:babi.dimension,name:purchase_year_party_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:purchase_year_paymenttype__payment_type"
+msgid "Payment Type"
+msgstr "付款方式"
+
+msgctxt "model:babi.dimension,name:purchase_year_paymenttype__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension.column,name:purchase_year_month_date__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.expression,name:purchase_line"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:purchase_line_available_quantity"
+msgid "Product Available Quantity"
+msgstr "产品可用数量"
+
+msgctxt "model:babi.expression,name:purchase_line_city"
+msgid "City"
+msgstr "城市"
+
+msgctxt "model:babi.expression,name:purchase_line_country"
+msgid "Country"
+msgstr "国家"
+
+msgctxt "model:babi.expression,name:purchase_line_currency"
+msgid "Currency"
+msgstr "货币"
+
+msgctxt "model:babi.expression,name:purchase_line_date"
+msgid "Date"
+msgstr "日期"
+
+msgctxt "model:babi.expression,name:purchase_line_day"
+msgid "Day"
+msgstr "天"
+
+msgctxt "model:babi.expression,name:purchase_line_discount"
+msgid "Discount"
+msgstr "折扣"
+
+msgctxt "model:babi.expression,name:purchase_line_month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.expression,name:purchase_line_party_name"
+msgid "Party Name"
+msgstr "参与者名称"
+
+msgctxt "model:babi.expression,name:purchase_line_payment_term"
+msgid "Payment Term"
+msgstr "支付方式"
+
+msgctxt "model:babi.expression,name:purchase_line_payment_type"
+msgid "Payment Type"
+msgstr "付款方式"
+
+msgctxt "model:babi.expression,name:purchase_line_price_unit"
+msgid "Unit Price"
+msgstr "单价"
+
+msgctxt "model:babi.expression,name:purchase_line_product"
+msgid "Product"
+msgstr "产品"
+
+msgctxt "model:babi.expression,name:purchase_line_product_category"
+msgid "Product Category"
+msgstr "产品类别"
+
+msgctxt "model:babi.expression,name:purchase_line_product_code"
+msgid "Product Code"
+msgstr "产品代码"
+
+msgctxt "model:babi.expression,name:purchase_line_product_name"
+msgid "Product Name"
+msgstr "产品名称"
+
+msgctxt "model:babi.expression,name:purchase_line_product_type"
+msgid "Product Type"
+msgstr "产品类型"
+
+msgctxt "model:babi.expression,name:purchase_line_quantity"
+msgid "Quantity (no UoM conversion)"
+msgstr "数量（不转换计量单位）"
+
+msgctxt "model:babi.expression,name:purchase_line_region"
+msgid "State/Region"
+msgstr "省/地区"
+
+msgctxt "model:babi.expression,name:purchase_line_state"
+msgid "Purchase State"
+msgstr "购买状态"
+
+msgctxt "model:babi.expression,name:purchase_line_subtotal"
+msgid "Amount"
+msgstr "数额"
+
+msgctxt "model:babi.expression,name:purchase_line_tax_code"
+msgid "Tax Codes"
+msgstr "税号"
+
+msgctxt "model:babi.expression,name:purchase_line_tax_name"
+msgid "Tax Names"
+msgstr "税项名称"
+
+msgctxt "model:babi.expression,name:purchase_line_total_amount"
+msgid "Purchase Total Amount"
+msgstr "采购总额"
+
+msgctxt "model:babi.expression,name:purchase_line_untaxed_amount"
+msgid "Purchase Untaxed Amount"
+msgstr "采购未税金额"
+
+msgctxt "model:babi.expression,name:purchase_line_uos"
+msgid "UoM"
+msgstr "计量单位"
+
+msgctxt "model:babi.expression,name:purchase_line_virtual_quantity"
+msgid "Product Forecast Quantity"
+msgstr "产品预计数量"
+
+msgctxt "model:babi.expression,name:purchase_line_year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.expression,name:purchase_line_year_month"
+msgid "Year-Month"
+msgstr "年月"
+
+msgctxt "model:babi.expression,name:purchase_line_zip"
+msgid "Zip"
+msgstr "邮政编码"
+
+msgctxt "model:babi.expression,name:purchase_purchase"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:purchase_purchase_city"
+msgid "City"
+msgstr "城市"
+
+msgctxt "model:babi.expression,name:purchase_purchase_country"
+msgid "Country"
+msgstr "国家"
+
+msgctxt "model:babi.expression,name:purchase_purchase_currency_name"
+msgid "Currency"
+msgstr "货币"
+
+msgctxt "model:babi.expression,name:purchase_purchase_date"
+msgid "Date"
+msgstr "日期"
+
+msgctxt "model:babi.expression,name:purchase_purchase_day"
+msgid "Day"
+msgstr "天"
+
+msgctxt "model:babi.expression,name:purchase_purchase_month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.expression,name:purchase_purchase_party_name"
+msgid "Party Name"
+msgstr "参与者名称"
+
+msgctxt "model:babi.expression,name:purchase_purchase_payment_term_name"
+msgid "Payment Term"
+msgstr "支付方式"
+
+msgctxt "model:babi.expression,name:purchase_purchase_payment_type"
+msgid "Payment Type"
+msgstr "付款方式"
+
+msgctxt "model:babi.expression,name:purchase_purchase_reference"
+msgid "Reference"
+msgstr "参考"
+
+msgctxt "model:babi.expression,name:purchase_purchase_region"
+msgid "State/Region"
+msgstr "省/地区"
+
+msgctxt "model:babi.expression,name:purchase_purchase_self"
+msgid "Purchase"
+msgstr "采购"
+
+msgctxt "model:babi.expression,name:purchase_purchase_state"
+msgid "State"
+msgstr "状态"
+
+msgctxt "model:babi.expression,name:purchase_purchase_total_amount"
+msgid "Total Amount"
+msgstr "总额"
+
+msgctxt "model:babi.expression,name:purchase_purchase_untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.expression,name:purchase_purchase_week"
+msgid "Week"
+msgstr "周"
+
+msgctxt "model:babi.expression,name:purchase_purchase_year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.expression,name:purchase_purchase_year_month"
+msgid "Year-Month"
+msgstr "年月"
+
+msgctxt "model:babi.expression,name:purchase_purchase_zip"
+msgid "Zip"
+msgstr "邮政编码"
+
+msgctxt "model:babi.filter,name:done_purchase_lines"
+msgid "Done Purchases"
+msgstr "已完成采购"
+
+msgctxt "model:babi.filter,name:done_purchases"
+msgid "Done Purchases"
+msgstr "已完成采购"
+
+msgctxt "model:babi.filter,name:processing_done_purchase_lines"
+msgid "Processing/Done Purchases"
+msgstr "处理中/已完成采购"
+
+msgctxt "model:babi.filter,name:processing_done_purchases"
+msgid "Processing/Done Purchases"
+msgstr "处理中/已完成采购"
+
+msgctxt "model:babi.filter,name:processing_purchase_lines"
+msgid "Processing Purchases"
+msgstr "处理中采购"
+
+msgctxt "model:babi.filter,name:processing_purchases"
+msgid "Processing Purchases"
+msgstr "处理中采购"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_party_product_year_month__discount"
+msgid "Discount Average"
+msgstr "平均折扣"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_party_product_year_month__quantity"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt ""
+"model:babi.measure,name:purchase_line_party_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "小计"
+
+msgctxt "model:babi.measure,name:purchase_line_product_year_month__quantity"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "model:babi.measure,name:purchase_line_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "小计"
+
+msgctxt "model:babi.measure,name:purchase_line_year_product_month__quantity"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "model:babi.measure,name:purchase_line_year_product_month__subtotal"
+msgid "Amount"
+msgstr "数额"
+
+msgctxt "model:babi.measure,name:purchase_month_year__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.measure,name:purchase_party_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt ""
+"model:babi.measure,name:purchase_year_country_state_city__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.measure,name:purchase_year_month_date__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.measure,name:purchase_year_party_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.measure,name:purchase_year_paymenttype__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.report,name:purchase_line_party_product_year_month"
+msgid "Purchase lines by Party - Product - Year - Month"
+msgstr "采购明细：按往来单位 - 产品 - 年 - 月"
+
+msgctxt "model:babi.report,name:purchase_line_product_year_month"
+msgid "Purchase lines by Product - Year - Month"
+msgstr "采购明细：按产品 - 年 - 月"
+
+msgctxt "model:babi.report,name:purchase_line_year_product_country_state_city"
+msgid "Purchase lines by Year - Product - Country - State - City"
+msgstr "采购明细：按年 - 产品 - 国家 - 省 - 城市"
+
+msgctxt "model:babi.report,name:purchase_line_year_product_month"
+msgid "Purchase lines by Year - Product - Month"
+msgstr "采购明细：按年 - 产品 - 月"
+
+msgctxt "model:babi.report,name:purchase_line_year_product_party_month"
+msgid "Purchase lines by Year - Product - Party - Month"
+msgstr "采购明细：按年 - 产品 - 往来单位 - 月"
+
+msgctxt "model:babi.report,name:purchase_line_year_productcategory_product"
+msgid "Purchase lines by Year - Product Category - Product"
+msgstr "采购明细：按年 - 产品类别 - 产品"
+
+msgctxt "model:babi.report,name:purchase_month_year"
+msgid "Purchases by Month - Year"
+msgstr "采购：按月 - 年"
+
+msgctxt "model:babi.report,name:purchase_party_year_month"
+msgid "Purchases by Party - Year - Month"
+msgstr "采购：按往来单位 - 年 - 月"
+
+msgctxt "model:babi.report,name:purchase_year_country_state_city"
+msgid "Purchases by Year - Country - State - City"
+msgstr "采购：按年 - 国家 - 省 - 城市"
+
+msgctxt "model:babi.report,name:purchase_year_month_date"
+msgid "Purchases by Year - Month - Day"
+msgstr "采购：按年 - 月 - 日"
+
+msgctxt "model:babi.report,name:purchase_year_party_month"
+msgid "Purchases by Year - Party - Month"
+msgstr "采购：按年 - 往来单位 - 月"
+
+msgctxt "model:babi.report,name:purchase_year_paymenttype"
+msgid "Purchases by Year - Payment Type"
+msgstr "采购：按年 - 付款类型"
